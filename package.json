@@ -1,0 +1,36 @@
+{
+	"//1": "describes your app and its dependencies",
+	"//2": "https://docs.npmjs.com/files/package.json",
+	"//3": "updating this file will download and update your packages",
+	"name": "youreabot.io",
+	"version": "0.0.1",
+	"description": "Puerile juvenile nonsense",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.12.4",
+		"@slack/client": "^3.5.0",
+		"handlebars": "^4.0.5",
+		"express-handlebars": "^3.0.0",
+		"request": "^2.72.0",
+		"body-parser": "^1.15.2",
+		"form-data": "^1.0.1",
+		"underscore": "^1.8.3",
+		"cron": "^1.1.0"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
